@@ -1,4 +1,4 @@
-[gd_scene load_steps=67 format=2]
+[gd_scene load_steps=68 format=2]
 
 [ext_resource path="res://assets/Player/jump_4.png" type="Texture" id=1]
 [ext_resource path="res://assets/Player/jump_5.png" type="Texture" id=2]
@@ -32,6 +32,7 @@
 [ext_resource path="res://assets/Player/walk_15.png" type="Texture" id=30]
 [ext_resource path="res://assets/Sounds/jump.wav" type="AudioStream" id=31]
 [ext_resource path="res://src/UI.tscn" type="PackedScene" id=32]
+[ext_resource path="res://src/GameOverScreen.tscn" type="PackedScene" id=33]
 [ext_resource path="res://assets/Player/idle_1.png" type="Texture" id=41]
 [ext_resource path="res://assets/Player/dead_14.png" type="Texture" id=46]
 [ext_resource path="res://assets/Player/dead_15.png" type="Texture" id=47]
@@ -121,6 +122,8 @@ zoom = Vector2( 0.75, 0.75 )
 limit_bottom = 600
 
 [node name="UI" parent="Camera" instance=ExtResource( 32 )]
+
+[node name="GameOverScreen" parent="Camera" instance=ExtResource( 33 )]
 
 [node name="JumpTimer" type="Timer" parent="."]
 one_shot = true

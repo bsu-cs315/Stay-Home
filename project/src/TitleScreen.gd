@@ -14,7 +14,6 @@ func show_intro():
 	$IntroText3.show()
 	$ExitIntroButton.show()
 
-
 func _on_ExitIntroButton_pressed():
 	$IntroText1.hide()
 	$IntroText2.hide()

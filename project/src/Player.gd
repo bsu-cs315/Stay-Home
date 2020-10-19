@@ -1,10 +1,10 @@
 extends KinematicBody2D
 
-const RUN_SPEED := 200
-const JUMP_SPEED := -600
-const GRAVITY := 1200
+const RUN_SPEED :int = 200
+const JUMP_SPEED : int = -600
+const GRAVITY : int = 1200
 var velocity := Vector2()
-var jumping := false
+var jumping : bool = false
 
 func get_input():
 	velocity.x = 0

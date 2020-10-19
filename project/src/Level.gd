@@ -10,3 +10,6 @@ func new_game():
 	playing = true
 	get_node("Player").enable_camera()
 	
+func game_over():
+	playing = false
+	get_node("Player/Camera/GameOverScreen").show_game_over_screen()
