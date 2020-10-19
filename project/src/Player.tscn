@@ -105,11 +105,11 @@ limit_top = -1000000
 limit_right = 1000000000
 limit_bottom = 600
 
+[node name="GameOverScreen" parent="Camera" instance=ExtResource( 33 )]
+
 [node name="UI" parent="Camera" instance=ExtResource( 32 )]
 
 [node name="TitleScreen" parent="Camera" instance=ExtResource( 34 )]
-
-[node name="GameOverScreen" parent="Camera" instance=ExtResource( 33 )]
 
 [node name="JumpTimer" type="Timer" parent="."]
 one_shot = true

@@ -1,15 +1,16 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://assets/Fonts/Rubik-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://src/TitleScreen.gd" type="Script" id=2]
+[ext_resource path="res://assets/Fonts/double_feature.ttf" type="DynamicFontData" id=3]
 
 [sub_resource type="DynamicFont" id=3]
 size = 35
 font_data = ExtResource( 1 )
 
 [sub_resource type="DynamicFont" id=4]
-size = 50
-font_data = ExtResource( 1 )
+size = 72
+font_data = ExtResource( 3 )
 
 [sub_resource type="DynamicFont" id=2]
 size = 50
@@ -19,14 +20,14 @@ font_data = ExtResource( 1 )
 script = ExtResource( 2 )
 
 [node name="Background" type="ColorRect" parent="."]
-anchor_left = 0.456
-anchor_top = 0.171
-anchor_right = 0.456
-anchor_bottom = 0.171
-margin_left = -1908.44
-margin_top = -866.6
-margin_right = 1998.56
-margin_bottom = 1261.4
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -1953.5
+margin_top = -1064.0
+margin_right = 1953.5
+margin_bottom = 1064.0
 color = Color( 0.156863, 0.0784314, 0.192157, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -46,10 +47,10 @@ __meta__ = {
 }
 
 [node name="Title" type="Label" parent="."]
-margin_left = 361.714
-margin_top = 229.574
-margin_right = 624.714
-margin_bottom = 292.574
+margin_left = 283.409
+margin_top = 184.477
+margin_right = 709.409
+margin_bottom = 265.477
 custom_fonts/font = SubResource( 4 )
 text = "Stay Home"
 autowrap = true
