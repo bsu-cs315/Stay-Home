@@ -101,6 +101,8 @@ __meta__ = {
 [node name="Camera" type="Camera2D" parent="."]
 current = true
 zoom = Vector2( 0.75, 0.75 )
+limit_top = -70
+limit_right = 1000000000
 limit_bottom = 600
 
 [node name="GameOverScreen" parent="Camera" instance=ExtResource( 33 )]
