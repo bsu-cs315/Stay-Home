@@ -33,40 +33,56 @@ I believe this submission would result with an A, given all of the completed req
 
 ### Third Party Assets
 
-Student Sprite
-`ninja-animated` no copyright reserved  
-Author: DezrasDragons (https://opengameart.org/users/dezrasdragons) 
-[CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/)) 
-Source: https://opengameart.org/content/ninja-animated
+Student Sprite  
+`The Boy` no copyright reserved  
+Author: Pzuh https://opengameart.org/users/pzuh  
+[CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/))  
+Source: https://opengameart.org/content/the-boy-free-sprites
 
-Mountain at Dusk Background
-`Mountain at Dusk Background` no copyright reserved  
-Author: ansimuz (https://opengameart.org/users/ansimuz) 
-[CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/)) 
-Source: https://opengameart.org/content/mountain-at-dusk-background
+Pumpkin Image  
+`Pumpkin pixel art` no copyright reserved  
+Author: perciva https://opengameart.org/users/percival49  
+[CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/)  
+Source: https://opengameart.org/content/sinister-pumpkin
 
-Images are from "Simplified Platformer Pack". Created by kenney.nl,
+Ghost Sprite  
+`Ghost floating upwards` no copyright reserved  
+Author: patvanmackelberg  https://opengameart.org/users/patvanmackelberg  
+[CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/)  
+Source: https://opengameart.org/content/upwards-floating-soul
+
+Level Images are from "Platformer Pack - Industrial". Created by kenney.nl,
 [CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/). 
-Source: https://www.kenney.nl/assets/simplified-platformer-pack
+Source: https://www.kenney.nl/assets/platformer-pack-industrial
 
 Font is "Rubik". Copyright © 2015 Hubert & Fischer. All rights reserved. mail@hubertfischer.com, with Reserved Font Name Rubik, SIL open font license version 1.1. Details are in /assets/fonts/LICENSE.txt. Source: http://hubertfischer.com/work/type-rubik
 
-Ninja Jump Sound
+Title Font  
+Author: Typodermic Fonts (https://www.dafont.com/typodermic.d1705)  
+[CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/).  
+Source: https://www.dafont.com/shlop.font  
+
+Jump Sound  
 `Jumps start` no copyright reserved  
 [BehanSean](https://freesound.org/people/BehanSean/)  
 [CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/).  
 Source: https://freesound.org/people/BehanSean/sounds/422426/  
 
-Ruby Pickup Sound  
-`RPG SFX #1 - Item Jingle` Created in 2016  
-[Sirkoto51] (https://freesound.org/people/Sirkoto51/)   
+Pumpkin Smash Sound  
+`Short Crunchy Splat` Created in 2017  
+[TomchikRec] (https://freesound.org/people/TomchikRec/)   
 [CC-BY 3.0: Attribution] (http://creativecommons.org/licenses/by/3.0/).  
-Source: https://freesound.org/people/Sirkoto51/sounds/346265/  
+Source: https://freesound.org/people/TomchikRec/sounds/410913/  
 
 Background Music  
-`Arcade Music Loop` Created in 2014 
-[joshuaempyre] (https://freesound.org/people/joshuaempyre/)  
+`Halloween Ambient 2016` Created in 2016  
+[AlienXXX] (https://freesound.org/people/AlienXXX/)  
 [CC-BY 3.0: Attribution] (http://creativecommons.org/licenses/by/3.0/).   
-Source: https://freesound.org/people/joshuaempyre/sounds/251461/  
+Source: https://freesound.org/people/AlienXXX/sounds/367362/  
 
+Ghost Sound 
+`Dialogue, Pained Yelp, Loud, C` Created in 2017  
+[InspectorJ] (https://freesound.org/people/InspectorJ/)  
+[CC-BY 3.0: Attribution] (http://creativecommons.org/licenses/by/3.0/).   
+Source: https://freesound.org/people/InspectorJ/sounds/414071/  
 
