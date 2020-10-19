@@ -172,7 +172,7 @@ __meta__ = {
 }
 
 [node name="Player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 178.923, -934.273 )
+position = Vector2( 14.2625, 528.994 )
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource( 7 )
