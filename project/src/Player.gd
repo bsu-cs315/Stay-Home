@@ -18,7 +18,6 @@ func get_input():
 			jumping = true
 			$JumpTimer.start()
 			$AnimatedSprite.play("jump")
-			
 		velocity.y = JUMP_SPEED
 	if right:
 		$AnimatedSprite.play("walk_right")
@@ -30,10 +29,15 @@ func get_input():
 		$AnimatedSprite.play("idle")
 
 func _physics_process(delta):
-	get_input()
-	velocity.y += GRAVITY * delta
-	velocity = move_and_slide(velocity, Vector2(0, -1))
-
+	if get_parent().playing:
+		get_input()
+		velocity.y += GRAVITY * delta
+		velocity = move_and_slide(velocity, Vector2(0, -1))
 
 func _on_JumpTimer_timeout():
 	jumping = false
+
+func enable_camera():
+	$Camera/UI/Score.show()
+	$Camera.make_current()
+	

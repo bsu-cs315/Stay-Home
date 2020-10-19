@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/pumpkin_hit.wav-f9711386e4fec36f166fc5df88a5c7d3.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/pumpkin_hit.wav"
+dest_files=[ "res://.import/pumpkin_hit.wav-f9711386e4fec36f166fc5df88a5c7d3.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

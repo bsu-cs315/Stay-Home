@@ -1,0 +1,104 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/Fonts/Rubik-Regular.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://src/TitleScreen.gd" type="Script" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+size = 80
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 50
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 35
+font_data = ExtResource( 1 )
+
+[node name="TitleScreen" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Background" type="ColorRect" parent="."]
+margin_left = 2.0
+margin_right = 1030.0
+margin_bottom = 606.0
+color = Color( 0.156863, 0.0784314, 0.192157, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Label" parent="."]
+margin_left = 302.0
+margin_top = 158.0
+margin_right = 711.0
+margin_bottom = 288.0
+custom_fonts/font = SubResource( 1 )
+text = "Stay Home"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PlayButton" type="Button" parent="."]
+margin_left = 396.0
+margin_top = 296.0
+margin_right = 604.0
+margin_bottom = 366.0
+custom_fonts/font = SubResource( 2 )
+text = "Play"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IntroText1" type="Label" parent="."]
+visible = false
+margin_left = 30.0
+margin_top = 30.0
+margin_right = 535.0
+margin_bottom = 177.0
+custom_fonts/font = SubResource( 3 )
+text = "You are a student who was diagnosed with a virus that is taking over the planet."
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IntroText2" type="Label" parent="."]
+visible = false
+margin_left = 484.0
+margin_top = 170.0
+margin_right = 989.0
+margin_bottom = 392.0
+custom_fonts/font = SubResource( 3 )
+text = "The university decided you must be quarantined in the old dorms before you can go back to classes! Everyone knows those dorms are haunted..."
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="IntroText3" type="Label" parent="."]
+visible = false
+margin_left = 38.0
+margin_top = 428.0
+margin_right = 543.0
+margin_bottom = 650.0
+custom_fonts/font = SubResource( 3 )
+text = "Find your way out! Collect the pumpkins along the way and watch out for ghosts!"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ExitIntroButton" type="Button" parent="."]
+visible = false
+margin_left = 674.0
+margin_top = 456.0
+margin_right = 882.0
+margin_bottom = 526.0
+custom_fonts/font = SubResource( 2 )
+text = "Lets Go!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="PlayButton" to="." method="_on_PlayButton_pressed"]
+[connection signal="pressed" from="ExitIntroButton" to="." method="_on_ExitIntroButton_pressed"]
