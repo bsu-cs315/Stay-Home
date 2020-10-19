@@ -1,4 +1,4 @@
-extends Node2D
+extends CanvasLayer
 
 func _on_PlayButton_pressed():
 	hide_title()
@@ -20,4 +20,4 @@ func _on_ExitIntroButton_pressed():
 	$IntroText3.hide()
 	$ExitIntroButton.hide()
 	$Background.hide()
-	get_parent().new_game()
+	get_node("/root/Level").new_game()

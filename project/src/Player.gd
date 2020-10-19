@@ -39,5 +39,4 @@ func _on_JumpTimer_timeout():
 
 func enable_camera():
 	$Camera/UI/Score.show()
-	$Camera.make_current()
 	

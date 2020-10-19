@@ -20,17 +20,21 @@ margin_left = -2.0
 margin_top = -4.0
 margin_right = 1026.0
 margin_bottom = 600.0
-color = Color( 0.403922, 0.0901961, 0.0901961, 1 )
+color = Color( 0.184314, 0.521569, 0.286275, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="GameOverText" type="Label" parent="."]
 visible = false
-margin_left = 396.0
-margin_top = 176.0
-margin_right = 651.0
-margin_bottom = 236.0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -127.5
+margin_top = -93.0
+margin_right = 127.5
+margin_bottom = -33.0
 custom_fonts/font = SubResource( 1 )
 text = "Game Over"
 __meta__ = {
@@ -39,10 +43,14 @@ __meta__ = {
 
 [node name="PlayAgainButton" type="Button" parent="."]
 visible = false
-margin_left = 410.0
-margin_top = 284.0
-margin_right = 637.0
-margin_bottom = 360.0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -113.5
+margin_top = -6.0
+margin_right = 113.5
+margin_bottom = 70.0
 custom_fonts/font = SubResource( 2 )
 text = "Play Again"
 __meta__ = {
