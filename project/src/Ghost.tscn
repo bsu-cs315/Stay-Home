@@ -37,6 +37,7 @@ radius = 16.7213
 height = 26.2699
 
 [node name="Ghost" type="RigidBody2D"]
+gravity_scale = 0.0
 contacts_reported = 1
 contact_monitor = true
 sleeping = true
@@ -45,7 +46,6 @@ script = ExtResource( 3 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 4, 4 )
 frames = SubResource( 5 )
-frame = 3
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
-const RUN_SPEED :int = 200
-const JUMP_SPEED : int = -600
+const RUN_SPEED :int = 250
+const JUMP_SPEED : int = -620
 const GRAVITY : int = 1200
 var velocity := Vector2()
 var jumping : bool = false
